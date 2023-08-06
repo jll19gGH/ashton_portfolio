@@ -1,0 +1,153 @@
+.work-wrapper {
+  padding-bottom: 100px;
+}
+
+.work-header {
+	padding: 20px;
+}
+
+.work-header h1 {
+	font-family: 'Bitter';
+	font-size: 45px;
+	text-align: center;
+}
+
+.work-cards {
+	display: grid;
+  	grid-template-columns: repeat(2, 1fr);
+  	grid-auto-rows: 760px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.card {
+	  font-family: 'Bitter';
+    background-color: #fff;
+    border-radius: 100px;
+    margin: 50px;
+}
+
+.card:hover {
+	transform: scale(1.1);
+	transition: all .3s ease-in-out;
+}
+
+.card-img {
+	text-align: center;
+	overflow: hidden;
+	height: 45%;
+}
+
+.card img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 100px;
+}
+
+.card-text {
+	padding: 40px;
+}
+
+.card-text button {
+  background-color: #ffa500;
+  color: #fff;
+  border: none;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Bitter';
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.card-text button:hover {
+  background-color: #ffae19;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1500px) {
+  .work-cards {
+    display: flex;
+    flex-direction: column;
+    display:flex;
+    align-items: center;
+}
+
+.card {
+    height: 600px;
+    width: 700px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+.card {
+    height: 600px;
+    width: 600px;
+}
+}
+
+@media screen and (max-width: 750px) {
+.card {
+    height: 700px;
+    width: 500px;
+}
+}
+
+@media screen and (max-width: 650px) {
+.card {
+    height: 550px;
+    width: 400px;
+}
+
+.card-img {
+  height: 40%;
+}
+
+.card-text {
+    padding: 20px;
+}
+
+.card-text h2 {
+  font-size: 18px;
+}
+
+.card-text p {
+  font-size: 14px;
+}
+
+.card-text button {
+  padding: 15px 30px;
+  font-size: 13px;
+}
+
+}
+
+@media screen and (max-width: 450px) {
+.card {
+    height: 550px;
+    width: 300px;
+    margin: 30px;
+}
+
+.card-img {
+  height: 35%;
+}
+
+.card-text h2 {
+  font-size: 18px;
+}
+
+.card-text p {
+  font-size: 14px;
+}
+
+.card-text button {
+  padding: 15px 30px;
+  font-size: 13px;
+}
+
+}

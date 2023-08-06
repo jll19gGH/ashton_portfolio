@@ -1,0 +1,58 @@
+.skills-wrapper {
+	background-image: url("../assets/bgimg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.skills-header {
+	padding-bottom: 30px;
+}
+
+.skills-header h1 {
+	font-family: 'Bitter';
+	font-size: 45px;
+	text-align: center;
+}
+
+.skill-icons {
+	display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.icon {
+	padding: 100px;
+}
+
+.icon img {
+	width: 225px;
+	height: 225px;
+}
+
+.icon img:hover {
+	transform: scale(1.2);
+	transition: all .3s ease-in-out;
+}
+@media screen and (max-width: 1250px) {
+	.skill-icons {
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+}
+
+@media screen and (max-width: 850px) {
+	.skill-icons {
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.icon {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+}

@@ -1,0 +1,47 @@
+.footer-content-wrapper {
+	background-image: url("../assets/bgimg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+  	padding-top: 50px;
+  	padding-bottom: 20px;
+  	font-family: 'Bitter';
+}
+
+.footer-content-wrapper hr {
+  width: 95vw;
+  border: 0;
+  border-top: 1px solid black;
+}
+
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 40px;
+}
+
+.footer-content-name {
+	width: 50%;
+	text-align: center;
+}
+
+.footer-content-name h2 {
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.footer-content-socials {
+	width: 50%;
+	text-align: center;
+}
+
+.footer-content-socials-icon {
+	width: 25px;
+	height: auto;
+	margin: 10px;
+}
+
+.footer-content-copyright{
+	text-align: center;
+}

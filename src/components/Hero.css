@@ -1,0 +1,171 @@
+.hero-wrapper {
+	height: 100vh;
+	background-image: url("../assets/bgimg.jpg");
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: relative;
+}
+
+.hero-cols {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.hero-column1 {
+	flex: 50%;
+}
+
+.hero-column2 {
+	flex: 50%;
+}
+
+.hero-img {
+	height: 100%;
+}
+
+.hero-img img{
+	height: auto;
+	width: 500px; 
+	position: relative;
+	top: 30%;
+	left: 20%;
+  border-radius: 250%;
+}
+
+.hero-text {
+	text-align: left;
+	position: relative;
+  	top: 40%;
+  	left: 10%;
+  	font-family: 'Bitter';
+}
+
+.hero-text-title h2 {
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.hero-text-title h1 {
+	font-size: 45px;
+}
+
+.hero-text-subtitle h3 {
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.hero-text-bttn button {
+	background-color: #ffa500;
+	color: #fff;
+  border: none;
+  padding: 18px 35px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Bitter';
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+}
+
+.hero-text-bttn button:hover {
+	background-color: #ffae19;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1260px) {
+.hero-cols {
+	display: block;
+}
+
+.hero-column1 {
+	text-align: center;
+	padding-top: 150px;
+}
+
+.hero-column2 {
+	 display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img img{
+	height: auto;
+	width: 340px; 
+	position: static;
+}
+
+.hero-text {
+	text-align: left;
+	position: static;
+}
+
+.hero-text-title h2 {
+	font-size: 23px;
+}
+
+.hero-text-title h1 {
+	font-size: 35px;
+}
+
+.hero-text-subtitle h3 {
+	font-size: 18px;
+}
+
+.hero-text-bttn button {
+  padding: 15px 30px;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+
+.hero-img img{
+	width: 300px;
+}
+
+.hero-text-title h2 {
+	font-size: 20px;
+}
+
+.hero-text-title h1 {
+	font-size: 30px;
+}
+
+.hero-text-subtitle h3 {
+	font-size: 14px;
+}
+
+.hero-text-bttn button {
+  padding: 13px 25px;
+}
+
+}
+
+@media screen and (max-width: 500px) {
+
+.hero-img img{
+	width: 300px;
+}
+
+.hero-text-title h2 {
+	font-size: 20px;
+}
+
+.hero-text-title h1 {
+	font-size: 30px;
+}
+
+.hero-text-subtitle h3 {
+	font-size: 14px;
+}
+
+.hero-text-bttn button {
+  padding: 12px 22px;
+}
+
+}

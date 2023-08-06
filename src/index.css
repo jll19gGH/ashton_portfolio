@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+font-family: 'Bitter';
+font-size: 16px;  
+-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:visited, a:hover, a:focus, a:active {
+  text-decoration: none; color:black; 
+}
+
+#about {
+  scroll-margin-top: 100px;
+}
+
+#skills {
+  scroll-margin-top: 100px;
+}
+
+#work {
+  scroll-margin-top: 100px;
+}
+
+#contact {
+  scroll-margin-top: 100px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
